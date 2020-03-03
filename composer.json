@@ -1,24 +1,28 @@
 {
-  "name": "brightnucleus/geolite2-country",
-  "description": "Composer-packaged version of the free MaxMind GeoLite2 Country database.",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Alain Schlesser",
-      "email": "alain.schlesser@gmail.com"
+    "name": "itnova/geolite2-country",
+    "description": "Composer-packaged version of the free MaxMind GeoLite2 Country database.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alain Schlesser",
+            "email": "alain.schlesser@gmail.com"
+        },
+        {
+            "name": "Koos van Egmond",
+            "email": "koos.vanegmond@kega.nl"
+        }
+    ],
+    "type": "composer-plugin",
+    "require": {
+        "php": ">=5.4",
+        "composer-plugin-api": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrightNucleus\\GeoLite2Country\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "BrightNucleus\\GeoLite2Country\\DatabaseUpdater"
     }
-  ],
-  "type": "composer-plugin",
-  "require": {
-    "php": ">=5.4",
-    "composer-plugin-api": "^1"
-  },
-  "autoload": {
-    "psr-4": {
-      "BrightNucleus\\GeoLite2Country\\": "src/"
-    }
-  },
-  "extra": {
-    "class": "BrightNucleus\\GeoLite2Country\\DatabaseUpdater"
-  }
 }
