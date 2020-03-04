@@ -1,7 +1,7 @@
 {
     "name": "kega/geolite2-country",
     "description": "Composer-packaged version of the free MaxMind GeoLite2 Country database.",
-  "version": "0.3.0",
+    "version": "0.3.1",
     "license": "MIT",
     "authors": [
         {
