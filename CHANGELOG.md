@@ -2,7 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [0.3.0] - 2020-01-03
+## [0.3.1] - 2020-03-04
+### Changed
+- Ignore data folder because we want this to be included in the repository
+
+## [0.3.0] - 2020-03-03
 ### Changed
 - Made compatible with new download method of MaxMind
 
