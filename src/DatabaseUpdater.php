@@ -386,4 +386,26 @@ class DatabaseUpdater implements PluginInterface, EventSubscriberInterface
     {
         // no action required
     }
+
+	/**
+	 * Deactivate the plugin.
+	 *
+	 * @param Composer    $composer The main Composer object.
+	 * @param IOInterface $io       The i/o interface to use.
+	 */
+	public function deactivate(Composer $composer, IOInterface $io)
+	{
+		// no action required
+	}
+
+	/**
+	 * Uninstall the plugin.
+	 *
+	 * @param Composer    $composer The main Composer object.
+	 * @param IOInterface $io       The i/o interface to use.
+	 */
+	public function uninstall(Composer $composer, IOInterface $io)
+	{
+		// no action required
+	}
 }
